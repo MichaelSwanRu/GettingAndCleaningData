@@ -28,3 +28,14 @@ R script called run_analysis.R does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The result script work is file "tidy.txt" with independent tidy data set with the average of each variable for each activity and each subject
+
+
+
+Run script:
+
+1. Change directory in the script by yours
+2. Down load and unzip data set from URL into your directory.
+3. Copy-Paste script into RSudio or R shell and execute.
+4. Output file tidy.txt will be located it your directory
+
+Thanks, Michael.
