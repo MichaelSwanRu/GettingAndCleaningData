@@ -31,7 +31,7 @@ The result script work is file "tidy.txt" with independent tidy data set with th
 
 
 
-Run script:
+## Run script:
 
 1. Change directory in the script by yours
 2. Download and unzip dataset from URL into your directory.
