@@ -1,6 +1,6 @@
 #1. Merges the training and the test sets to create one data set.
 
-#set work directory
+#set work directory (windows)
 setwd("d:/docs/coursera/Getting and Cleaning Data/UCI HAR Dataset")
 
 # load 3 files with row data from train directory
@@ -74,9 +74,6 @@ db.all.melt <- melt(db.all, id= c("activity", "subject"), measure.vars = list.me
 
 # create average effect of activity & subject
 db.all.average <- dcast(db.all.melt, activity + subject ~ variable, mean)
-
-#set work directory
-setwd("d:/docs/coursera/Getting and Cleaning Data")
 
 # write dataset
 write.table(db.all.average, file="tidy.txt",  row.names=FALSE) 
