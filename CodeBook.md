@@ -180,9 +180,6 @@ db.all.melt <- melt(db.all, id= c("activity", "subject"), measure.vars = list.me
 # create average effect of activity & subject
 db.all.average <- dcast(db.all.melt, activity + subject ~ variable, mean)
 
-#set work directory
-setwd("d:/docs/coursera/Getting and Cleaning Data")
-
 # write dataset
 write.table(db.all.average, file="tidy.txt",  row.names=FALSE)
 
