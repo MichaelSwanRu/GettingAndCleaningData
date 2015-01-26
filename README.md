@@ -34,7 +34,7 @@ The result script work is file "tidy.txt" with independent tidy data set with th
 Run script:
 
 1. Change directory in the script by yours
-2. Down load and unzip data set from URL into your directory.
+2. Download and unzip dataset from URL into your directory.
 3. Copy-Paste script into RSudio or R shell and execute.
 4. Output file tidy.txt will be located it your directory
 
